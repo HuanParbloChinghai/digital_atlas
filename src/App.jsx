@@ -16,7 +16,7 @@ function App() {
         console.log('light mode active');
       }
     }, [darkMode]
-  )
+  );
 
   return (
     <>
