@@ -16,8 +16,8 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1 className='bg-sky-500'>Vite + React</h1>
-      <div className="card bg-sky-200">
+      <h1 className='font-nunito bg-sky-500 text-2xl w-[500px]'>Vite + React</h1>
+      <div className="card bg-sky-200 w-[500px]">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
@@ -25,7 +25,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
       </div>
-      <p className="read-the-docs">
+      <p className="read-the-docs font-nunito">
         Click on the Vite and React logos to learn more
       </p>
     </>
