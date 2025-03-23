@@ -6,3 +6,5 @@
   --font-nunito: Nunito, "san-serif";
   --font-doto: Doto, san-serif;
 }
+
+@custom-variant dark (&:where(.dark, .dark *))

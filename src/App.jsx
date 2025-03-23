@@ -1,4 +1,5 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react';
+import Header from './components/Header';
 
 import './App.css'
 
@@ -18,10 +19,15 @@ function App() {
     }, [darkMode]
   );
 
+  const toggleHandler = () => {
+    setDarkMode(!darkMode)
+  };
+
   return (
     <>
       <div>
-        {/* <Header /> */}
+        <Header darkMode={darkMode} toggleHandler={toggleHandler} />
+        {/* <p>Hello ma guy</p> */}
       </div>
         
     </>
