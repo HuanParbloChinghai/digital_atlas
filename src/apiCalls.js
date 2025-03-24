@@ -13,9 +13,9 @@ export const getCountries = async () => {
 
 
 
-export const getCountry = async () => {
+export const getCountry = async (name) => {
     try {
-        const res = await fetch(`https://restcountries.com/v3.1/name/${}?fullText=true`);
+        const res = await fetch(`https://restcountries.com/v3.1/name/${name}?fullText=true`);
         if (!res.ok) throw new Error('Could not fetch Data');
         const data = await res.json();
         return data
