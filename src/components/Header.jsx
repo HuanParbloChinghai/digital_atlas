@@ -5,7 +5,7 @@ import { FaMoon } from "react-icons/fa";
 
 const Header = ({darkMode, toggleHandler}) => {
         return ( 
-        <div className='dark:bg-[#202C36] w-full min-h-screen transition-colors duration-600'>
+        <div className=''>
             <header className='flex border-solid border-inherit border-2 font-Nunito text-[#111517] bg-[#FFFFFF] dark:bg-[#2B3844] dark:text-[#FFFFFF] justify-between py-3 px-5 shadow-lg transition-colors duration-600'>
                 <div>
                     <h1 className=' text-base font-extrabold md:text-[24px]'>Where in the world?</h1>
